@@ -3,8 +3,8 @@ services:
     - docker
 
 script: 
-    - docker build -t mannydesigns/test .
-    - docker images mannydesigns/test
+    - docker build -t mannydesigns/node .
+    - docker images mannydesigns/node
 
 before_deploy:
     - docker login -u anilsakr -p Banyan123#
