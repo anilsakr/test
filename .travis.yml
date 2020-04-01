@@ -13,4 +13,4 @@ before_deploy:
         provider: script
         script: docker push mannydesigns/node
         on:
-            branch: master
+            branch: stage
